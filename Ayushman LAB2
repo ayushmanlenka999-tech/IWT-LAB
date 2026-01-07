@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>abc</title>
+	</head>
+	<body bgcolor="yellow" text="black">
+		<kbd> Welcome to silicon </kbd><br>
+		<link rel="stylesheet" type="text/css"href="abc.css">
+		<s>welcome to html</s><br>
+		<strike> Welcome to html</strike><br>
+		<caption>project1</caption>
+		The <span style="color: blue;">blue part</span> of this text is coloured<br>
+		The perimeter of a circle is 2&pi;<var>r</var>
+		<dt>welcome to html</dt>
+		<dd>Ayushman</dd>
+		<dd>Amit</dd>
+		<fieldset>
+		<legend>Personal Database</legend>
+		Name:<input type="text"><br>
+		Email:<input type="text"><br>
+		<input type="button"name="submit" value="submit">
+		</fieldset>
+		<nav>
+		<a href="/html/">HTML</a> |
+		<a href="/css/">CSS</a> |
+		<a href="/js/">JavaScript</a> |
+		<a href="/jquery/">jQuery</a> |
+		<a href="https://erp.silicon.ac.in/estcampus/">ERP</a>
+		</nav>
+		<font face=monotype corsive size=7 color=red> welcome to html programming</font>
+		<a href=abc.html >click me</a><br>
+		<marquee direction=left bgcolor=red height=50 width=100% scrolldelay=10 scrollamount=10>
+		<font size=7>MARVEL STUDIOS PRESENTS</font><br>
+		</marquee>
+		<h1 align=center><u>food items</u></h1>
+		<h2>veg:-</h2>
+		<ul type=square>
+		<li>chilly mushroom
+		<li>paneer masala
+		<li>veg korma
+		</ul>
+		<h2>non-veg:-</h2>
+		<ul type=square>
+		<li>chilly chicken
+		<li>egg masala
+		<li>mutton curry
+		</ul>
+		<a href="https://erp.silicon.ac.in/estcampus/"><img src="https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg" height=200 width=45% border=2 alt=anil border-color=red></a>
+		
+	</body>
+</html>
