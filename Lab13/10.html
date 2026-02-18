@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>series</title>
+<script>
+var prd=1,sum=0,rem;
+let num=parseInt(prompt("Enter the decimal number"));
+while(num|=0)
+{
+rem=num%2;
+sum=sum+rem*prd;
+prd=prd*10;
+num=num/2;
+}
+document.write("Binary equivalent="+sum);
+</script>
+</head>
+<body bgcolor=cyan text=black>
+</body>
+</html>
