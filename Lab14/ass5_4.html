@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>program</title>
+<script>
+let numbers=[10,20,5,0,35];
+let sum=0;
+let largest=numbers[0];
+let smallest=numbers[0];
+for (let i=0;i<5;i++)
+{
+    sum+=numbers[i];
+    if (numbers[i]>largest)
+	{
+        largest=numbers[i];
+    }
+    if (numbers[i]<smallest)
+	{
+        smallest=numbers[i];
+    }
+}
+let average=sum/5;
+document.write("Array:"+numbers+"<br>");
+document.write("Sum:"+sum+"<br>");
+document.write("Average:"+average+"<br>");
+document.write("Largest:"+largest+"<br>");
+document.write("Smallest:"+smallest+"<br>");
+</script>
+</head>
+<body bgcolor=cyan text=black>
+</body>
+</html>

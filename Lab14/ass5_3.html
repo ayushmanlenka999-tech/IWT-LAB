@@ -1,0 +1,23 @@
+<html> 
+<head> 
+<title>series</title> 
+<script language=JavaScript>
+let num=parseInt(prompt("Enter a number")); 
+var rev=0,rem;
+var original=num; 
+while(num|=0)
+{ 
+rem=num%10; 
+rev=rev*10+rem; 
+num=num/10; 
+}
+document.write("reverse value="+rev+"<br>");
+if(original==rev)
+document.write("It is a palindrome number");
+else
+document.write("It is not a palindrome number");
+</script> 
+</head> 
+<body bgcolor=cyan text=black> 
+</body> 
+</html> 

@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>24becj02</title>
+</head>
+<body>
+<script>
+function splitEvenOdd(numbers) 
+{
+let even = [];
+let odd = [];
+for (let num of numbers) {
+if (num % 2 === 0) {
+even.push(num);
+} else {
+odd.push(num);
+}
+}
+return { even, odd };
+}
+let sampleArr = [1, 2, 3, 4, 5, 6];
+let result = splitEvenOdd(sampleArr);
+document.write("Even numbers:", result.even,"<br>");
+document.write("Odd numbers:", result.odd,"</br>");
+</script>
+<body bgcolor="cyan" text="red">
+</head>
+</html>
