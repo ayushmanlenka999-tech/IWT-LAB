@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Q2</title>
+</head>
+<body>
+<p id="text">This is a Sample paragraph</p>
+<button id="Show">Show</button>
+<button id="hide">Hide</button>
+</body>
+<script>
+const paragraph=document.getElementById("text");
+const buttonshow=document.getElementById("Show")
+const buttonhide=document.getElementById("hide");
+function hidefun()
+{
+paragraph.style.display='none';
+}
+function showfun()
+{
+paragraph.style.display='block';
+}
+buttonshow.addEventListener("click", showfun);
+buttonhide.addEventListener("click", hidefun);
+</script>
+</html>
